@@ -67,7 +67,7 @@ export default function Home() {
       
       <div className="hidden lg:flex lg:flex-row  lg:gap-24 2xl:gap-40 items-center">
         <div>
-          <Carousel showArrows={false} emulateTouch={true} infiniteLoop={true}  width={500} thumbWidth={110} onClickThumb={onClickThumb} showIndicators={false} >
+          <Carousel showArrows={false} emulateTouch={true} infiniteLoop={true}  width={500} thumbWidth={110}  showIndicators={false} >
             <div onClick={openModal}>
                 <img src="/image-product-1.jpg"  className="rounded-2xl  hover:opacity-60 " />
             </div>
@@ -123,7 +123,7 @@ export default function Home() {
                       </Dialog.Title>
                       
                       <div>
-                        <Carousel showArrows={true} emulateTouch={true} infiniteLoop={true}  width={520} thumbWidth={110} renderArrowNext={renderArrowNext} renderArrowPrev={renderArrowPrev} onClickThumb={onClickThumb} showIndicators={false} >
+                        <Carousel showArrows={true} emulateTouch={true} infiniteLoop={true}  width={520} thumbWidth={110} renderArrowNext={renderArrowNext} renderArrowPrev={renderArrowPrev}  showIndicators={false} >
                         <div>
                             <img src="/image-product-1.jpg"  className="rounded-2xl  hover:opacity-60 " />
                         </div>
