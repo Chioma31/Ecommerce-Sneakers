@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+.root,
+#root {
+  --primary: #D20606;
+  --secondary: #BCB2B2;
+  --contrast: #e78a51;
+  --accent: #D1CDB2;
+}
+
+.required{
+  @apply text-red-500 text-xs italic;
+}
+
+.carousel .thumb.selected {
+  opacity: 0.4;
+  border: 2px solid #e78a51 !important;
+  padding: 0px;
+  border-radius: 25px;
+  
+}
+ .carousel .thumb:hover {
+  border: 2px solid #F37B2C !important;
+  padding: 0px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+.carousel .thumb {
+  border: none !important;
+  padding: 2px;
+}
+
+
+.carousel .thumb:focus {
+  border: none !important;
+  border: 2px solid #e78a51 !important;
+  outline: none;
+}
