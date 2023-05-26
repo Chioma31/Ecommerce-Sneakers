@@ -8,9 +8,7 @@ import { AppContext } from "./_app";
 
 export default function Home() {
 
-  const {cart, setCart, amount, setAmount} = useContext(AppContext);'
-  
-  '
+  const {cart, setCart, amount, setAmount} = useContext(AppContext);
   const [isOpen, setIsOpen] = useState(false)
 
 
@@ -31,20 +29,19 @@ export default function Home() {
   function openModal() {
     setIsOpen(true)
   }
-
-  const saveToCart = () => {
-    setCart(prev=>({...prev, amount } ))
-  }
-
-
   const increment = () => {
     setAmount(amount + 1)
   }
 
+
+  
+
   const decrement = () => {
     setAmount(amount - 1)
   } 
-  
+  const saveToCart = () => {
+    setCart(prev=>({...prev, amount } ))
+  }
 
 
 
@@ -60,9 +57,6 @@ export default function Home() {
             <img src="/icon-next.svg" />
         </button>
   )
-  const onClickThumb = (index, item) => {
-    
-  }
 
 
 
