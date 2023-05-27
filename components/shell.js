@@ -105,7 +105,7 @@ export default function Shell(props) {
                       ))}
                     </div>
                   </div>
-                  <div className=" ml-6 flex gap-5 items-center">
+                  <div className=" ml-6 flex gap-2 lg:gap-5 items-center">
                     {/* Profile dropdown */}
                     <Menu as="div" className="relative ml-3">
                       <Menu.Button
@@ -193,9 +193,7 @@ export default function Shell(props) {
                               alt=" image"
                             />    
                         </button>
-                      </div>
-
-                    
+                    </div>  
                   </div>
                   
                 </div>
