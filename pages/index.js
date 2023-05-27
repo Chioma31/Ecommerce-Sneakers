@@ -184,7 +184,7 @@ export default function Home() {
                   className=" "
                   height={20}
                   width={25}
-                  src="/icon-cart.svg"
+                  src="/cart.svg"
                   alt=" Logo"
                 />
                 Add to cart
@@ -253,8 +253,8 @@ export default function Home() {
                   className=" "
                   height={20}
                   width={25}
-                  src="/icon-cart.svg"
-                  alt=" Logo"
+                  src="/cart.svg"
+                  alt=" cart"
                 />
                 Add to cart
               </button>

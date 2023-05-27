@@ -122,7 +122,7 @@ export default function Shell(props) {
                           />
                           {
                             cart?.amount ? 
-                            <span className=' absolute top-[-5px] text-[13px] text-center h-5 w-5 rounded-full bg-primary text-white'>{cart.amount}</span>
+                            <span className=' absolute top-[-5px] text-[12px] text-center h-5 w-5 rounded-full bg-primary text-white'>{cart.amount}</span>
                             : null
                           }
                           
@@ -156,7 +156,7 @@ export default function Shell(props) {
                                 </div>
                                 <div className='text-[14px]'>
                                   <div>Fall Limited Edition Sneakers</div>
-                                  <div> $125.00 × 1 <span className='font-bold'>$125</span> </div>
+                                  <div className='flex items-center'> $125.00 × 1 <span className='font-bold'>$125</span><span className='mx-4   text-[11px] text-center flex items-center justify-center  rounded-full bg-primary h-5 w-5 text-white'>{cart.amount}</span> </div>
                                 </div>
                                 <div>
                                   <Image
